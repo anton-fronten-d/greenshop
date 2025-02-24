@@ -277,7 +277,8 @@ function changeUrlForBigPic(event) {
   fill: $click-color;
 }
 .big-item-bg {
-  height: 80%;
+  height: auto;
+  padding-bottom: 16px;
   width: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -288,16 +289,7 @@ function changeUrlForBigPic(event) {
   max-height: 1086px;
   background-color: rgb(255, 255, 255);
 }
-@media (min-width: 1500px) {
-  .big-item-bg {
-    height: 70%;
-  }
-}
-@media (min-width: 1900px) {
-  .big-item-bg {
-    height: 60%;
-  }
-}
+
 .pics-and-buttons {
   display: grid;
   justify-content: space-between;
